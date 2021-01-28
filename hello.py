@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+"""
+CMPUT404 Winter2021 Lab3
+Gengyuan Huang
+
+This program is written by Zoe Riell
+"""
+
 
 import os
 import json

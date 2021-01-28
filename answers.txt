@@ -7,7 +7,6 @@ QUERY_STRING
 Question 3: What environment variable contains information about the user’s browser?
 HTTP_USER_AGENT
 
-
 Question 4: How does the POSTed data come to the CGI script?
 s = cgi.FieldStorage()
 username = s.getfirst("username")
@@ -28,4 +27,4 @@ cookies is used to remember information when you browsing the website.
 It can be used for identifing the user, or store user preference/settings on the local machine.
 
 Question 8: What is the link to your code on GitHub?
-
+https://github.com/gengyuanhuang/cgi-lab
