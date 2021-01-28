@@ -1,0 +1,31 @@
+Question 1: How do you inspect all environment variables in Python?
+you can get all environment variables in python by calling os.environ
+
+Question 2: What environment variable contains the query parameter data?
+QUERY_STRING
+
+Question 3: What environment variable contains information about the user’s browser?
+HTTP_USER_AGENT
+
+
+Question 4: How does the POSTed data come to the CGI script?
+s = cgi.FieldStorage()
+username = s.getfirst("username")
+password = s.getfirst("password")
+
+When you hit the button "login", it sends a post request to localhost:8080\login.py with the data
+POSTed data will be handled by calling cgi.FieldStorage().
+From python Doc on cgi module, it state that FieldStorage class can get the submitted form data.
+
+Question 5: What is the HTTP header syntax to set a cookie from the server?
+"Set-Cookie: content"
+
+Question 6: What is the HTTP header syntax the browser uses to send the cookie back?
+"Cookie: content"
+
+Question 7: In your own words, what are cookies used for?
+cookies is used to remember information when you browsing the website. 
+It can be used for identifing the user, or store user preference/settings on the local machine.
+
+Question 8: What is the link to your code on GitHub?
+
